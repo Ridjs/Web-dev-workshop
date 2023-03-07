@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(37,37,38);
+    font-family: "Roboto";
+}
+
+.navbar_main li{
+    list-style: none;
+    padding: 15px 25px;
+    margin: 5px;
+    border: 1px white solid;
+
+}
+
+.icon{
+    color: rgb(255,255,255);
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar_main a{
+    transition: 250ms ease;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.navbar_main li:hover a{
+    color: rgb(81, 10, 196);
+    text-decoration: none;
+}
